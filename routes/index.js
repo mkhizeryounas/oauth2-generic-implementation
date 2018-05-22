@@ -11,16 +11,16 @@ let authProviders = [
   {
     req_uri: `https://api.instagram.com/oauth/authorize/`,
     name: "Instagram",
-    client_id: "f99c20563dc94dd69f0b4c87da8c1c86",
-    client_secret: "3710facb405a4c70a8dc4caa4a559416",
+    client_id: "CLINET_ID",
+    client_secret: "CLIENT_SECRET",
     id: "insta_int",
     token_uri: 'https://api.instagram.com/oauth/access_token'
   },
   {
     req_uri: `https://www.dropbox.com/oauth2/authorize`,
     name: "Dropbox",
-    client_id: "ndneebvcimb0zgz",
-    client_secret: "aljb10380lbjpuc",
+    client_id: "CLINET_ID",
+    client_secret: "CLIENT_SECRET",
     id: "dropbox_int",
     token_uri: 'https://api.dropboxapi.com/oauth2/token'
   }
